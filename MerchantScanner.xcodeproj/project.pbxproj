@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		958D0187149FF0D5004D24A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D0186149FF0D5004D24A5 /* UIKit.framework */; };
+		958D0189149FF0D5004D24A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D0188149FF0D5004D24A5 /* Foundation.framework */; };
+		958D018B149FF0D5004D24A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D018A149FF0D5004D24A5 /* CoreGraphics.framework */; };
+		958D0191149FF0D5004D24A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 958D018F149FF0D5004D24A5 /* InfoPlist.strings */; };
+		958D0193149FF0D5004D24A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 958D0192149FF0D5004D24A5 /* main.m */; };
+		958D0197149FF0D5004D24A5 /* QMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 958D0196149FF0D5004D24A5 /* QMAppDelegate.m */; };
+		958D019F149FF0D5004D24A5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D019E149FF0D5004D24A5 /* SenTestingKit.framework */; };
+		958D01A0149FF0D5004D24A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D0186149FF0D5004D24A5 /* UIKit.framework */; };
+		958D01A1149FF0D5004D24A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D0188149FF0D5004D24A5 /* Foundation.framework */; };
+		958D01A9149FF0D5004D24A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 958D01A7149FF0D5004D24A5 /* InfoPlist.strings */; };
+		958D01AC149FF0D5004D24A5 /* MerchantScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 958D01AB149FF0D5004D24A5 /* MerchantScannerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		958D01A2149FF0D5004D24A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958D0179149FF0D5004D24A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958D0181149FF0D5004D24A5;
+			remoteInfo = MerchantScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		958D0182149FF0D5004D24A5 /* MerchantScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerchantScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		958D0186149FF0D5004D24A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		958D0188149FF0D5004D24A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		958D018A149FF0D5004D24A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		958D018E149FF0D5004D24A5 /* MerchantScanner-Info.plist */ = {isa = PBXFileReference; path = "MerchantScanner-Info.plist"; sourceTree = "<group>"; };
+		958D0190149FF0D5004D24A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		958D0192149FF0D5004D24A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		958D0194149FF0D5004D24A5 /* MerchantScanner-Prefix.pch */ = {isa = PBXFileReference; path = "MerchantScanner-Prefix.pch"; sourceTree = "<group>"; };
+		958D0195149FF0D5004D24A5 /* QMAppDelegate.h */ = {isa = PBXFileReference; path = QMAppDelegate.h; sourceTree = "<group>"; };
+		958D0196149FF0D5004D24A5 /* QMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMAppDelegate.m; sourceTree = "<group>"; };
+		958D019D149FF0D5004D24A5 /* MerchantScannerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerchantScannerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		958D019E149FF0D5004D24A5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		958D01A6149FF0D5004D24A5 /* MerchantScannerTests-Info.plist */ = {isa = PBXFileReference; path = "MerchantScannerTests-Info.plist"; sourceTree = "<group>"; };
+		958D01A8149FF0D5004D24A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		958D01AA149FF0D5004D24A5 /* MerchantScannerTests.h */ = {isa = PBXFileReference; path = MerchantScannerTests.h; sourceTree = "<group>"; };
+		958D01AB149FF0D5004D24A5 /* MerchantScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MerchantScannerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		958D017F149FF0D5004D24A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958D0187149FF0D5004D24A5 /* UIKit.framework in Frameworks */,
+				958D0189149FF0D5004D24A5 /* Foundation.framework in Frameworks */,
+				958D018B149FF0D5004D24A5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958D0199149FF0D5004D24A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958D019F149FF0D5004D24A5 /* SenTestingKit.framework in Frameworks */,
+				958D01A0149FF0D5004D24A5 /* UIKit.framework in Frameworks */,
+				958D01A1149FF0D5004D24A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		958D0177149FF0D5004D24A5 = {
+			isa = PBXGroup;
+			children = (
+				958D018C149FF0D5004D24A5 /* MerchantScanner */,
+				958D01A4149FF0D5004D24A5 /* MerchantScannerTests */,
+				958D0185149FF0D5004D24A5 /* Frameworks */,
+				958D0183149FF0D5004D24A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		958D0183149FF0D5004D24A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				958D0182149FF0D5004D24A5 /* MerchantScanner.app */,
+				958D019D149FF0D5004D24A5 /* MerchantScannerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		958D0185149FF0D5004D24A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				958D0186149FF0D5004D24A5 /* UIKit.framework */,
+				958D0188149FF0D5004D24A5 /* Foundation.framework */,
+				958D018A149FF0D5004D24A5 /* CoreGraphics.framework */,
+				958D019E149FF0D5004D24A5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		958D018C149FF0D5004D24A5 /* MerchantScanner */ = {
+			isa = PBXGroup;
+			children = (
+				958D0195149FF0D5004D24A5 /* QMAppDelegate.h */,
+				958D0196149FF0D5004D24A5 /* QMAppDelegate.m */,
+				958D018D149FF0D5004D24A5 /* Supporting Files */,
+			);
+			path = MerchantScanner;
+			sourceTree = "<group>";
+		};
+		958D018D149FF0D5004D24A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				958D018E149FF0D5004D24A5 /* MerchantScanner-Info.plist */,
+				958D018F149FF0D5004D24A5 /* InfoPlist.strings */,
+				958D0192149FF0D5004D24A5 /* main.m */,
+				958D0194149FF0D5004D24A5 /* MerchantScanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		958D01A4149FF0D5004D24A5 /* MerchantScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				958D01AA149FF0D5004D24A5 /* MerchantScannerTests.h */,
+				958D01AB149FF0D5004D24A5 /* MerchantScannerTests.m */,
+				958D01A5149FF0D5004D24A5 /* Supporting Files */,
+			);
+			path = MerchantScannerTests;
+			sourceTree = "<group>";
+		};
+		958D01A5149FF0D5004D24A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				958D01A6149FF0D5004D24A5 /* MerchantScannerTests-Info.plist */,
+				958D01A7149FF0D5004D24A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		958D0181149FF0D5004D24A5 /* MerchantScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958D01AF149FF0D5004D24A5 /* Build configuration list for PBXNativeTarget "MerchantScanner" */;
+			buildPhases = (
+				958D017E149FF0D5004D24A5 /* Sources */,
+				958D017F149FF0D5004D24A5 /* Frameworks */,
+				958D0180149FF0D5004D24A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MerchantScanner;
+			productName = MerchantScanner;
+			productReference = 958D0182149FF0D5004D24A5 /* MerchantScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		958D019C149FF0D5004D24A5 /* MerchantScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958D01B2149FF0D5004D24A5 /* Build configuration list for PBXNativeTarget "MerchantScannerTests" */;
+			buildPhases = (
+				958D0198149FF0D5004D24A5 /* Sources */,
+				958D0199149FF0D5004D24A5 /* Frameworks */,
+				958D019A149FF0D5004D24A5 /* Resources */,
+				958D019B149FF0D5004D24A5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958D01A3149FF0D5004D24A5 /* PBXTargetDependency */,
+			);
+			name = MerchantScannerTests;
+			productName = MerchantScannerTests;
+			productReference = 958D019D149FF0D5004D24A5 /* MerchantScannerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		958D0179149FF0D5004D24A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 958D017C149FF0D5004D24A5 /* Build configuration list for PBXProject "MerchantScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 958D0177149FF0D5004D24A5;
+			productRefGroup = 958D0183149FF0D5004D24A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				958D0181149FF0D5004D24A5 /* MerchantScanner */,
+				958D019C149FF0D5004D24A5 /* MerchantScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		958D0180149FF0D5004D24A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958D0191149FF0D5004D24A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958D019A149FF0D5004D24A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958D01A9149FF0D5004D24A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		958D019B149FF0D5004D24A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		958D017E149FF0D5004D24A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958D0193149FF0D5004D24A5 /* main.m in Sources */,
+				958D0197149FF0D5004D24A5 /* QMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958D0198149FF0D5004D24A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958D01AC149FF0D5004D24A5 /* MerchantScannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		958D01A3149FF0D5004D24A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958D0181149FF0D5004D24A5 /* MerchantScanner */;
+			targetProxy = 958D01A2149FF0D5004D24A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		958D018F149FF0D5004D24A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958D0190149FF0D5004D24A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		958D01A7149FF0D5004D24A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958D01A8149FF0D5004D24A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		958D01AD149FF0D5004D24A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		958D01AE149FF0D5004D24A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		958D01B0149FF0D5004D24A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MerchantScanner/MerchantScanner-Prefix.pch";
+				INFOPLIST_FILE = "MerchantScanner/MerchantScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		958D01B1149FF0D5004D24A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MerchantScanner/MerchantScanner-Prefix.pch";
+				INFOPLIST_FILE = "MerchantScanner/MerchantScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		958D01B3149FF0D5004D24A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MerchantScanner.app/MerchantScanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MerchantScanner/MerchantScanner-Prefix.pch";
+				INFOPLIST_FILE = "MerchantScannerTests/MerchantScannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		958D01B4149FF0D5004D24A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MerchantScanner.app/MerchantScanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MerchantScanner/MerchantScanner-Prefix.pch";
+				INFOPLIST_FILE = "MerchantScannerTests/MerchantScannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		958D017C149FF0D5004D24A5 /* Build configuration list for PBXProject "MerchantScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958D01AD149FF0D5004D24A5 /* Debug */,
+				958D01AE149FF0D5004D24A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958D01AF149FF0D5004D24A5 /* Build configuration list for PBXNativeTarget "MerchantScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958D01B0149FF0D5004D24A5 /* Debug */,
+				958D01B1149FF0D5004D24A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		958D01B2149FF0D5004D24A5 /* Build configuration list for PBXNativeTarget "MerchantScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958D01B3149FF0D5004D24A5 /* Debug */,
+				958D01B4149FF0D5004D24A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 958D0179149FF0D5004D24A5 /* Project object */;
+}
