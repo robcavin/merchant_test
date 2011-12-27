@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9581210014AA762F00AF2C7E /* beep-beep.caf in Resources */ = {isa = PBXBuildFile; fileRef = 958120FF14AA762F00AF2C7E /* beep-beep.caf */; };
+		958122D114AA78B300AF2C7E /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958122AD14AA76AA00AF2C7E /* libZXingWidget.a */; };
 		958D0187149FF0D5004D24A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D0186149FF0D5004D24A5 /* UIKit.framework */; };
 		958D0189149FF0D5004D24A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D0188149FF0D5004D24A5 /* Foundation.framework */; };
 		958D018B149FF0D5004D24A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D018A149FF0D5004D24A5 /* CoreGraphics.framework */; };
@@ -137,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958122D114AA78B300AF2C7E /* libZXingWidget.a in Frameworks */,
 				958D2208149FF981004D24A5 /* AddressBook.framework in Frameworks */,
 				958D2209149FF981004D24A5 /* AudioToolbox.framework in Frameworks */,
 				958D220A149FF981004D24A5 /* CoreMedia.framework in Frameworks */,
@@ -540,7 +542,10 @@
 					"./zxing/cpp/core/**",
 				);
 				INFOPLIST_FILE = "MerchantScanner/MerchantScanner-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -556,7 +561,10 @@
 					"./zxing/cpp/core/**",
 				);
 				INFOPLIST_FILE = "MerchantScanner/MerchantScanner-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
