@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9581210014AA762F00AF2C7E /* beep-beep.caf in Resources */ = {isa = PBXBuildFile; fileRef = 958120FF14AA762F00AF2C7E /* beep-beep.caf */; };
 		958D0187149FF0D5004D24A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D0186149FF0D5004D24A5 /* UIKit.framework */; };
 		958D0189149FF0D5004D24A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D0188149FF0D5004D24A5 /* Foundation.framework */; };
 		958D018B149FF0D5004D24A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D018A149FF0D5004D24A5 /* CoreGraphics.framework */; };
@@ -18,7 +19,6 @@
 		958D01A1149FF0D5004D24A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D0188149FF0D5004D24A5 /* Foundation.framework */; };
 		958D01A9149FF0D5004D24A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 958D01A7149FF0D5004D24A5 /* InfoPlist.strings */; };
 		958D01AC149FF0D5004D24A5 /* MerchantScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 958D01AB149FF0D5004D24A5 /* MerchantScannerTests.m */; };
-		958D21FE149FF76F004D24A5 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D21FD149FF723004D24A5 /* libZXingWidget.a */; };
 		958D2202149FF92D004D24A5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D2201149FF92D004D24A5 /* AVFoundation.framework */; };
 		958D2208149FF981004D24A5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D2203149FF981004D24A5 /* AddressBook.framework */; };
 		958D2209149FF981004D24A5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D2204149FF981004D24A5 /* AudioToolbox.framework */; };
@@ -38,7 +38,6 @@
 		959A57E514A99F36008129B5 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57D714A99F36008129B5 /* SBJsonTokeniser.m */; };
 		959A57E614A99F36008129B5 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57D914A99F36008129B5 /* SBJsonUTF8Stream.m */; };
 		959A57E714A99F36008129B5 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57DB14A99F36008129B5 /* SBJsonWriter.m */; };
-		959D5F2914A051D600801E86 /* beep-beep.caf in Resources */ = {isa = PBXBuildFile; fileRef = 959D5F2814A051D600801E86 /* beep-beep.caf */; };
 		95C53D1414A30205003DB563 /* frosted_glass_stretchable_12x18.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 95C53D1214A30205003DB563 /* frosted_glass_stretchable_12x18.PNG */; };
 		95C53D1514A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 95C53D1314A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG */; };
 		95E2432614A05875009D364E /* ConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2432414A05875009D364E /* ConfirmViewController.m */; };
@@ -51,6 +50,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		958122AC14AA76AA00AF2C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958122A514AA76A900AF2C7E /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
 		958D01A2149FF0D5004D24A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 958D0179149FF0D5004D24A5 /* Project object */;
@@ -58,23 +64,11 @@
 			remoteGlobalIDString = 958D0181149FF0D5004D24A5;
 			remoteInfo = MerchantScanner;
 		};
-		958D21FC149FF723004D24A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 958D21F5149FF723004D24A5 /* ZXingWidget.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = ZXingWidget;
-		};
-		958D21FF149FF783004D24A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 958D21F5149FF723004D24A5 /* ZXingWidget.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = ZXingWidget;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		958120FF14AA762F00AF2C7E /* beep-beep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "beep-beep.caf"; path = "zxing/iphone/ZXingWidget/beep-beep.caf"; sourceTree = SOURCE_ROOT; };
+		958122A514AA76A900AF2C7E /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
 		958D0182149FF0D5004D24A5 /* MerchantScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerchantScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		958D0186149FF0D5004D24A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		958D0188149FF0D5004D24A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,7 +85,6 @@
 		958D01A8149FF0D5004D24A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		958D01AA149FF0D5004D24A5 /* MerchantScannerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MerchantScannerTests.h; sourceTree = "<group>"; };
 		958D01AB149FF0D5004D24A5 /* MerchantScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MerchantScannerTests.m; sourceTree = "<group>"; };
-		958D21F5149FF723004D24A5 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = ../../../Downloads/zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
 		958D2201149FF92D004D24A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		958D2203149FF981004D24A5 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		958D2204149FF981004D24A5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -125,7 +118,6 @@
 		959A57D914A99F36008129B5 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		959A57DA14A99F36008129B5 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		959A57DB14A99F36008129B5 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		959D5F2814A051D600801E86 /* beep-beep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "beep-beep.caf"; path = "../../../../Downloads/zxing/iphone/ZXingWidget/beep-beep.caf"; sourceTree = "<group>"; };
 		95C53D1214A30205003DB563 /* frosted_glass_stretchable_12x18.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frosted_glass_stretchable_12x18.PNG; sourceTree = "<group>"; };
 		95C53D1314A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frosted_glass_stretchable_12x18@2x.PNG"; sourceTree = "<group>"; };
 		95E2432314A05875009D364E /* ConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmViewController.h; sourceTree = "<group>"; };
@@ -151,7 +143,6 @@
 				958D220B149FF981004D24A5 /* CoreVideo.framework in Frameworks */,
 				958D220C149FF981004D24A5 /* libiconv.dylib in Frameworks */,
 				958D2202149FF92D004D24A5 /* AVFoundation.framework in Frameworks */,
-				958D21FE149FF76F004D24A5 /* libZXingWidget.a in Frameworks */,
 				958D0187149FF0D5004D24A5 /* UIKit.framework in Frameworks */,
 				958D0189149FF0D5004D24A5 /* Foundation.framework in Frameworks */,
 				958D018B149FF0D5004D24A5 /* CoreGraphics.framework in Frameworks */,
@@ -171,10 +162,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		958122A614AA76A900AF2C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				958122AD14AA76AA00AF2C7E /* libZXingWidget.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		958D0177149FF0D5004D24A5 = {
 			isa = PBXGroup;
 			children = (
-				958D21F5149FF723004D24A5 /* ZXingWidget.xcodeproj */,
+				958122A514AA76A900AF2C7E /* ZXingWidget.xcodeproj */,
 				958D018C149FF0D5004D24A5 /* MerchantScanner */,
 				958D01A4149FF0D5004D24A5 /* MerchantScannerTests */,
 				958D0185149FF0D5004D24A5 /* Frameworks */,
@@ -211,6 +210,7 @@
 		958D018C149FF0D5004D24A5 /* MerchantScanner */ = {
 			isa = PBXGroup;
 			children = (
+				958120FF14AA762F00AF2C7E /* beep-beep.caf */,
 				959A57C214A99F17008129B5 /* SBJSON */,
 				958D0195149FF0D5004D24A5 /* QMAppDelegate.h */,
 				958D0196149FF0D5004D24A5 /* QMAppDelegate.m */,
@@ -219,7 +219,6 @@
 				95F6667C14A3F2F300802CB7 /* Storyboard.storyboard */,
 				95F6667E14A3F3D300802CB7 /* QMTextView.h */,
 				95F6667F14A3F3D300802CB7 /* QMTextView.m */,
-				959D5F2814A051D600801E86 /* beep-beep.caf */,
 				958D018D149FF0D5004D24A5 /* Supporting Files */,
 				95E2432314A05875009D364E /* ConfirmViewController.h */,
 				95E2432414A05875009D364E /* ConfirmViewController.m */,
@@ -262,14 +261,6 @@
 				958D01A7149FF0D5004D24A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		958D21F6149FF723004D24A5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				958D21FD149FF723004D24A5 /* libZXingWidget.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		959A57C214A99F17008129B5 /* SBJSON */ = {
@@ -318,7 +309,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				958D2200149FF783004D24A5 /* PBXTargetDependency */,
 			);
 			name = MerchantScanner;
 			productName = MerchantScanner;
@@ -367,8 +357,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 958D21F6149FF723004D24A5 /* Products */;
-					ProjectRef = 958D21F5149FF723004D24A5 /* ZXingWidget.xcodeproj */;
+					ProductGroup = 958122A614AA76A900AF2C7E /* Products */;
+					ProjectRef = 958122A514AA76A900AF2C7E /* ZXingWidget.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -380,11 +370,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		958D21FD149FF723004D24A5 /* libZXingWidget.a */ = {
+		958122AD14AA76AA00AF2C7E /* libZXingWidget.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libZXingWidget.a;
-			remoteRef = 958D21FC149FF723004D24A5 /* PBXContainerItemProxy */;
+			remoteRef = 958122AC14AA76AA00AF2C7E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -395,13 +385,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				958D0191149FF0D5004D24A5 /* InfoPlist.strings in Resources */,
-				959D5F2914A051D600801E86 /* beep-beep.caf in Resources */,
 				95C53D1414A30205003DB563 /* frosted_glass_stretchable_12x18.PNG in Resources */,
 				95C53D1514A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG in Resources */,
 				95F6667D14A3F2F300802CB7 /* Storyboard.storyboard in Resources */,
 				95F6668F14A406FA00802CB7 /* ConfirmViewController.xib in Resources */,
 				95F6669714A4193800802CB7 /* scan_bg.PNG in Resources */,
 				95F6669814A4193800802CB7 /* scan_bg@2x.PNG in Resources */,
+				9581210014AA762F00AF2C7E /* beep-beep.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,11 +462,6 @@
 			isa = PBXTargetDependency;
 			target = 958D0181149FF0D5004D24A5 /* MerchantScanner */;
 			targetProxy = 958D01A2149FF0D5004D24A5 /* PBXContainerItemProxy */;
-		};
-		958D2200149FF783004D24A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZXingWidget;
-			targetProxy = 958D21FF149FF783004D24A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -551,18 +536,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MerchantScanner/MerchantScanner-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"/Users/robcavin/Downloads/zxing/iphone/ZXingWidget/**",
-					"/Users/robcavin/Downloads/zxing/cpp/core/**",
+					"./zxing/iphone/ZXingWidget/**",
+					"./zxing/cpp/core/**",
 				);
 				INFOPLIST_FILE = "MerchantScanner/MerchantScanner-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/ZBarSDK\"",
-					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/QQrDecoder/camerawrapper/epoc32/release/armv5/lib\"",
-					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/QQrDecoder/camerawrapper/epoc32/release/winscw/udeb\"",
-					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/ZXingBarcodeReader/camerawrapper/epoc32/release/armv5/lib\"",
-					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/ZXingBarcodeReader/camerawrapper/epoc32/release/winscw/udeb\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -574,18 +552,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MerchantScanner/MerchantScanner-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"/Users/robcavin/Downloads/zxing/iphone/ZXingWidget/**",
-					"/Users/robcavin/Downloads/zxing/cpp/core/**",
+					"./zxing/iphone/ZXingWidget/**",
+					"./zxing/cpp/core/**",
 				);
 				INFOPLIST_FILE = "MerchantScanner/MerchantScanner-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/ZBarSDK\"",
-					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/QQrDecoder/camerawrapper/epoc32/release/armv5/lib\"",
-					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/QQrDecoder/camerawrapper/epoc32/release/winscw/udeb\"",
-					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/ZXingBarcodeReader/camerawrapper/epoc32/release/armv5/lib\"",
-					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/ZXingBarcodeReader/camerawrapper/epoc32/release/winscw/udeb\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
