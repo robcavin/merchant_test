@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="10K540" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="aMg-SJ-MUx">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="nOI-Oq-WDz">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZgF-op-obb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="aMg-SJ-MUx" customClass="ScanViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cWx-3u-gg4">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="frosted_glass_stretchable_12x18.PNG" id="Uy8-YQ-Jgj">
+                                <rect key="frame" x="10" y="10" width="300" height="440"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="T8a-mF-iia">
+                                <rect key="frame" x="175" y="410" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Scan New Code" backgroundImage="frosted_glass_stretchable_12x18.PNG">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GBR-MR-CAp" kind="modal" identifier="LaunchScanner" id="R9x-G3-Wgo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bo2-h0-T16">
+                                <rect key="frame" x="20" y="410" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Report Problem" backgroundImage="frosted_glass_stretchable_12x18.PNG">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Awarded Prize" lineBreakMode="tailTruncation" minimumFontSize="10" id="1CI-o8-Mjk">
+                                <rect key="frame" x="105" y="10" width="111" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="6F0-bs-QQr">
+                                <rect key="frame" x="18" y="34" width="285" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="VIP Weekend at the MGM Grand" lineBreakMode="tailTruncation" minimumFontSize="10" id="HMZ-s0-9A5">
+                                <rect key="frame" x="35" y="202" width="250" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="1IJ-kh-VXm">
+                                <rect key="frame" x="18" y="226" width="285" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Redemption instructions go here.  aofjadsoifjaofjoadsjf adfsdf   adsfj a  a;ldsldfj af adslfd  ad lasdfkadslfjadsf  adsflasdf  dasladsjdj f asdlfkdf faladfads asd dfsladsladsf afd f lsdkfjoijwe df f adsf;ljdf a fdljfad a dljfljad fds aljadslfkj f adsfkjladsjasdkdfs  asdljflkjoifa  add fda dfa df adf adf dsaf adfdafadfojopijed adfadf;oij  the angrry red.  The quick red fox jomped over lthe lazy dog</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="qTY-DU-bRs">
+                                <rect key="frame" x="141" y="182" width="38" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="Uy8-YQ-Jgj" id="zTo-IA-lpt"/>
+                        <outlet property="mainView" destination="cWx-3u-gg4" id="Uge-ri-Mbe"/>
+                        <outlet property="overlayView" destination="HVW-fE-kT5" id="HKE-ZB-Uty"/>
+                        <outlet property="prizeImage" destination="6F0-bs-QQr" id="m79-ex-Boe"/>
+                        <outlet property="prizeText" destination="1IJ-kh-VXm" id="k1l-Sl-GcX"/>
+                        <outlet property="prizeTitle" destination="HMZ-s0-9A5" id="JZB-eD-a4P"/>
+                        <outlet property="problemButton" destination="bo2-h0-T16" id="oFM-IL-Ano"/>
+                        <outlet property="scanButton" destination="T8a-mF-iia" id="TaI-Kp-MN0"/>
+                    </connections>
+                </viewController>
+                <view tag="100" contentMode="scaleToFill" id="HVW-fE-kT5" userLabel="Launch Overlay View">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" animating="YES" style="whiteLarge" id="Cl0-hz-eIE">
+                            <rect key="frame" x="142" y="211" width="37" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </activityIndicatorView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Launching Scanner" lineBreakMode="tailTruncation" minimumFontSize="10" id="vBt-ow-1H1">
+                            <rect key="frame" x="87" y="256" width="147" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
+                    </accessibility>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="-39" y="111"/>
+        </scene>
+        <scene sceneID="FRZ-8X-pDI">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mMo-jY-BGM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="GBR-MR-CAp" customClass="ZXingWidgetController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y3n-zj-w1k">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="scan_bg.PNG" id="oIt-pe-abd">
+                                <rect key="frame" x="0.0" y="-20" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z94-YA-CJw"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="414" y="111"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="frosted_glass_stretchable_12x18.PNG" width="12" height="18"/>
+        <image name="scan_bg.PNG" width="320" height="480"/>
+    </resources>
+    <classes>
+        <class className="ScanViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScanViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="backgroundImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="mainView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="overlayView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="prizeImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="prizeText" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="prizeTitle" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="problemButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="scanButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="ZXingWidgetController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ZXingWidgetController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

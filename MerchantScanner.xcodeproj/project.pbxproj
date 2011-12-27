@@ -18,6 +18,36 @@
 		958D01A1149FF0D5004D24A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D0188149FF0D5004D24A5 /* Foundation.framework */; };
 		958D01A9149FF0D5004D24A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 958D01A7149FF0D5004D24A5 /* InfoPlist.strings */; };
 		958D01AC149FF0D5004D24A5 /* MerchantScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 958D01AB149FF0D5004D24A5 /* MerchantScannerTests.m */; };
+		958D21FE149FF76F004D24A5 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D21FD149FF723004D24A5 /* libZXingWidget.a */; };
+		958D2202149FF92D004D24A5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D2201149FF92D004D24A5 /* AVFoundation.framework */; };
+		958D2208149FF981004D24A5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D2203149FF981004D24A5 /* AddressBook.framework */; };
+		958D2209149FF981004D24A5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D2204149FF981004D24A5 /* AudioToolbox.framework */; };
+		958D220A149FF981004D24A5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D2205149FF981004D24A5 /* CoreMedia.framework */; };
+		958D220B149FF981004D24A5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D2206149FF981004D24A5 /* CoreVideo.framework */; };
+		958D220C149FF981004D24A5 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 958D2207149FF981004D24A5 /* libiconv.dylib */; };
+		958D2216149FFD4F004D24A5 /* ScanViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 958D2214149FFD4F004D24A5 /* ScanViewController.mm */; };
+		959A57DC14A99F36008129B5 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57C414A99F36008129B5 /* NSObject+SBJson.m */; };
+		959A57DD14A99F36008129B5 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57C714A99F36008129B5 /* SBJsonParser.m */; };
+		959A57DE14A99F36008129B5 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57C914A99F36008129B5 /* SBJsonStreamParser.m */; };
+		959A57DF14A99F36008129B5 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57CB14A99F36008129B5 /* SBJsonStreamParserAccumulator.m */; };
+		959A57E014A99F36008129B5 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57CD14A99F36008129B5 /* SBJsonStreamParserAdapter.m */; };
+		959A57E114A99F36008129B5 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57CF14A99F36008129B5 /* SBJsonStreamParserState.m */; };
+		959A57E214A99F36008129B5 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57D114A99F36008129B5 /* SBJsonStreamWriter.m */; };
+		959A57E314A99F36008129B5 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57D314A99F36008129B5 /* SBJsonStreamWriterAccumulator.m */; };
+		959A57E414A99F36008129B5 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57D514A99F36008129B5 /* SBJsonStreamWriterState.m */; };
+		959A57E514A99F36008129B5 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57D714A99F36008129B5 /* SBJsonTokeniser.m */; };
+		959A57E614A99F36008129B5 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57D914A99F36008129B5 /* SBJsonUTF8Stream.m */; };
+		959A57E714A99F36008129B5 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A57DB14A99F36008129B5 /* SBJsonWriter.m */; };
+		959D5F2914A051D600801E86 /* beep-beep.caf in Resources */ = {isa = PBXBuildFile; fileRef = 959D5F2814A051D600801E86 /* beep-beep.caf */; };
+		95C53D1414A30205003DB563 /* frosted_glass_stretchable_12x18.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 95C53D1214A30205003DB563 /* frosted_glass_stretchable_12x18.PNG */; };
+		95C53D1514A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 95C53D1314A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG */; };
+		95E2432614A05875009D364E /* ConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2432414A05875009D364E /* ConfirmViewController.m */; };
+		95F6667D14A3F2F300802CB7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F6667C14A3F2F300802CB7 /* Storyboard.storyboard */; };
+		95F6668014A3F3D300802CB7 /* QMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6667F14A3F3D300802CB7 /* QMTextView.m */; };
+		95F6668F14A406FA00802CB7 /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95F6668E14A406FA00802CB7 /* ConfirmViewController.xib */; };
+		95F6669714A4193800802CB7 /* scan_bg.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 95F6669514A4193800802CB7 /* scan_bg.PNG */; };
+		95F6669814A4193800802CB7 /* scan_bg@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 95F6669614A4193800802CB7 /* scan_bg@2x.PNG */; };
+		95F6669B14A421F900802CB7 /* QMOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6669A14A421F900802CB7 /* QMOverlayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +58,20 @@
 			remoteGlobalIDString = 958D0181149FF0D5004D24A5;
 			remoteInfo = MerchantScanner;
 		};
+		958D21FC149FF723004D24A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958D21F5149FF723004D24A5 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+		958D21FF149FF783004D24A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958D21F5149FF723004D24A5 /* ZXingWidget.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -35,18 +79,65 @@
 		958D0186149FF0D5004D24A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		958D0188149FF0D5004D24A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		958D018A149FF0D5004D24A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		958D018E149FF0D5004D24A5 /* MerchantScanner-Info.plist */ = {isa = PBXFileReference; path = "MerchantScanner-Info.plist"; sourceTree = "<group>"; };
+		958D018E149FF0D5004D24A5 /* MerchantScanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MerchantScanner-Info.plist"; sourceTree = "<group>"; };
 		958D0190149FF0D5004D24A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		958D0192149FF0D5004D24A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		958D0194149FF0D5004D24A5 /* MerchantScanner-Prefix.pch */ = {isa = PBXFileReference; path = "MerchantScanner-Prefix.pch"; sourceTree = "<group>"; };
-		958D0195149FF0D5004D24A5 /* QMAppDelegate.h */ = {isa = PBXFileReference; path = QMAppDelegate.h; sourceTree = "<group>"; };
+		958D0194149FF0D5004D24A5 /* MerchantScanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MerchantScanner-Prefix.pch"; sourceTree = "<group>"; };
+		958D0195149FF0D5004D24A5 /* QMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMAppDelegate.h; sourceTree = "<group>"; };
 		958D0196149FF0D5004D24A5 /* QMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMAppDelegate.m; sourceTree = "<group>"; };
 		958D019D149FF0D5004D24A5 /* MerchantScannerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerchantScannerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		958D019E149FF0D5004D24A5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		958D01A6149FF0D5004D24A5 /* MerchantScannerTests-Info.plist */ = {isa = PBXFileReference; path = "MerchantScannerTests-Info.plist"; sourceTree = "<group>"; };
+		958D01A6149FF0D5004D24A5 /* MerchantScannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MerchantScannerTests-Info.plist"; sourceTree = "<group>"; };
 		958D01A8149FF0D5004D24A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		958D01AA149FF0D5004D24A5 /* MerchantScannerTests.h */ = {isa = PBXFileReference; path = MerchantScannerTests.h; sourceTree = "<group>"; };
+		958D01AA149FF0D5004D24A5 /* MerchantScannerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MerchantScannerTests.h; sourceTree = "<group>"; };
 		958D01AB149FF0D5004D24A5 /* MerchantScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MerchantScannerTests.m; sourceTree = "<group>"; };
+		958D21F5149FF723004D24A5 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = ../../../Downloads/zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
+		958D2201149FF92D004D24A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		958D2203149FF981004D24A5 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		958D2204149FF981004D24A5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		958D2205149FF981004D24A5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		958D2206149FF981004D24A5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		958D2207149FF981004D24A5 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		958D2213149FFD4F004D24A5 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		958D2214149FFD4F004D24A5 /* ScanViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScanViewController.mm; sourceTree = "<group>"; };
+		959A57C314A99F36008129B5 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		959A57C414A99F36008129B5 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		959A57C514A99F36008129B5 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		959A57C614A99F36008129B5 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		959A57C714A99F36008129B5 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		959A57C814A99F36008129B5 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		959A57C914A99F36008129B5 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		959A57CA14A99F36008129B5 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		959A57CB14A99F36008129B5 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		959A57CC14A99F36008129B5 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		959A57CD14A99F36008129B5 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		959A57CE14A99F36008129B5 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		959A57CF14A99F36008129B5 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		959A57D014A99F36008129B5 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		959A57D114A99F36008129B5 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		959A57D214A99F36008129B5 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		959A57D314A99F36008129B5 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		959A57D414A99F36008129B5 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		959A57D514A99F36008129B5 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		959A57D614A99F36008129B5 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		959A57D714A99F36008129B5 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		959A57D814A99F36008129B5 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		959A57D914A99F36008129B5 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		959A57DA14A99F36008129B5 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		959A57DB14A99F36008129B5 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		959D5F2814A051D600801E86 /* beep-beep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "beep-beep.caf"; path = "../../../../Downloads/zxing/iphone/ZXingWidget/beep-beep.caf"; sourceTree = "<group>"; };
+		95C53D1214A30205003DB563 /* frosted_glass_stretchable_12x18.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frosted_glass_stretchable_12x18.PNG; sourceTree = "<group>"; };
+		95C53D1314A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frosted_glass_stretchable_12x18@2x.PNG"; sourceTree = "<group>"; };
+		95E2432314A05875009D364E /* ConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmViewController.h; sourceTree = "<group>"; };
+		95E2432414A05875009D364E /* ConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmViewController.m; sourceTree = "<group>"; };
+		95F6667C14A3F2F300802CB7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		95F6667E14A3F3D300802CB7 /* QMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMTextView.h; sourceTree = "<group>"; };
+		95F6667F14A3F3D300802CB7 /* QMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMTextView.m; sourceTree = "<group>"; };
+		95F6668E14A406FA00802CB7 /* ConfirmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmViewController.xib; sourceTree = "<group>"; };
+		95F6669514A4193800802CB7 /* scan_bg.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan_bg.PNG; sourceTree = "<group>"; };
+		95F6669614A4193800802CB7 /* scan_bg@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scan_bg@2x.PNG"; sourceTree = "<group>"; };
+		95F6669914A421F900802CB7 /* QMOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMOverlayView.h; sourceTree = "<group>"; };
+		95F6669A14A421F900802CB7 /* QMOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMOverlayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +145,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958D2208149FF981004D24A5 /* AddressBook.framework in Frameworks */,
+				958D2209149FF981004D24A5 /* AudioToolbox.framework in Frameworks */,
+				958D220A149FF981004D24A5 /* CoreMedia.framework in Frameworks */,
+				958D220B149FF981004D24A5 /* CoreVideo.framework in Frameworks */,
+				958D220C149FF981004D24A5 /* libiconv.dylib in Frameworks */,
+				958D2202149FF92D004D24A5 /* AVFoundation.framework in Frameworks */,
+				958D21FE149FF76F004D24A5 /* libZXingWidget.a in Frameworks */,
 				958D0187149FF0D5004D24A5 /* UIKit.framework in Frameworks */,
 				958D0189149FF0D5004D24A5 /* Foundation.framework in Frameworks */,
 				958D018B149FF0D5004D24A5 /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +174,7 @@
 		958D0177149FF0D5004D24A5 = {
 			isa = PBXGroup;
 			children = (
+				958D21F5149FF723004D24A5 /* ZXingWidget.xcodeproj */,
 				958D018C149FF0D5004D24A5 /* MerchantScanner */,
 				958D01A4149FF0D5004D24A5 /* MerchantScannerTests */,
 				958D0185149FF0D5004D24A5 /* Frameworks */,
@@ -95,6 +194,12 @@
 		958D0185149FF0D5004D24A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				958D2203149FF981004D24A5 /* AddressBook.framework */,
+				958D2204149FF981004D24A5 /* AudioToolbox.framework */,
+				958D2205149FF981004D24A5 /* CoreMedia.framework */,
+				958D2206149FF981004D24A5 /* CoreVideo.framework */,
+				958D2207149FF981004D24A5 /* libiconv.dylib */,
+				958D2201149FF92D004D24A5 /* AVFoundation.framework */,
 				958D0186149FF0D5004D24A5 /* UIKit.framework */,
 				958D0188149FF0D5004D24A5 /* Foundation.framework */,
 				958D018A149FF0D5004D24A5 /* CoreGraphics.framework */,
@@ -106,9 +211,25 @@
 		958D018C149FF0D5004D24A5 /* MerchantScanner */ = {
 			isa = PBXGroup;
 			children = (
+				959A57C214A99F17008129B5 /* SBJSON */,
 				958D0195149FF0D5004D24A5 /* QMAppDelegate.h */,
 				958D0196149FF0D5004D24A5 /* QMAppDelegate.m */,
+				958D2213149FFD4F004D24A5 /* ScanViewController.h */,
+				958D2214149FFD4F004D24A5 /* ScanViewController.mm */,
+				95F6667C14A3F2F300802CB7 /* Storyboard.storyboard */,
+				95F6667E14A3F3D300802CB7 /* QMTextView.h */,
+				95F6667F14A3F3D300802CB7 /* QMTextView.m */,
+				959D5F2814A051D600801E86 /* beep-beep.caf */,
 				958D018D149FF0D5004D24A5 /* Supporting Files */,
+				95E2432314A05875009D364E /* ConfirmViewController.h */,
+				95E2432414A05875009D364E /* ConfirmViewController.m */,
+				95F6668E14A406FA00802CB7 /* ConfirmViewController.xib */,
+				95F6669514A4193800802CB7 /* scan_bg.PNG */,
+				95F6669614A4193800802CB7 /* scan_bg@2x.PNG */,
+				95C53D1214A30205003DB563 /* frosted_glass_stretchable_12x18.PNG */,
+				95C53D1314A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG */,
+				95F6669914A421F900802CB7 /* QMOverlayView.h */,
+				95F6669A14A421F900802CB7 /* QMOverlayView.m */,
 			);
 			path = MerchantScanner;
 			sourceTree = "<group>";
@@ -143,6 +264,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		958D21F6149FF723004D24A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				958D21FD149FF723004D24A5 /* libZXingWidget.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		959A57C214A99F17008129B5 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				959A57C314A99F36008129B5 /* NSObject+SBJson.h */,
+				959A57C414A99F36008129B5 /* NSObject+SBJson.m */,
+				959A57C514A99F36008129B5 /* SBJson.h */,
+				959A57C614A99F36008129B5 /* SBJsonParser.h */,
+				959A57C714A99F36008129B5 /* SBJsonParser.m */,
+				959A57C814A99F36008129B5 /* SBJsonStreamParser.h */,
+				959A57C914A99F36008129B5 /* SBJsonStreamParser.m */,
+				959A57CA14A99F36008129B5 /* SBJsonStreamParserAccumulator.h */,
+				959A57CB14A99F36008129B5 /* SBJsonStreamParserAccumulator.m */,
+				959A57CC14A99F36008129B5 /* SBJsonStreamParserAdapter.h */,
+				959A57CD14A99F36008129B5 /* SBJsonStreamParserAdapter.m */,
+				959A57CE14A99F36008129B5 /* SBJsonStreamParserState.h */,
+				959A57CF14A99F36008129B5 /* SBJsonStreamParserState.m */,
+				959A57D014A99F36008129B5 /* SBJsonStreamWriter.h */,
+				959A57D114A99F36008129B5 /* SBJsonStreamWriter.m */,
+				959A57D214A99F36008129B5 /* SBJsonStreamWriterAccumulator.h */,
+				959A57D314A99F36008129B5 /* SBJsonStreamWriterAccumulator.m */,
+				959A57D414A99F36008129B5 /* SBJsonStreamWriterState.h */,
+				959A57D514A99F36008129B5 /* SBJsonStreamWriterState.m */,
+				959A57D614A99F36008129B5 /* SBJsonTokeniser.h */,
+				959A57D714A99F36008129B5 /* SBJsonTokeniser.m */,
+				959A57D814A99F36008129B5 /* SBJsonUTF8Stream.h */,
+				959A57D914A99F36008129B5 /* SBJsonUTF8Stream.m */,
+				959A57DA14A99F36008129B5 /* SBJsonWriter.h */,
+				959A57DB14A99F36008129B5 /* SBJsonWriter.m */,
+			);
+			name = SBJSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +318,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				958D2200149FF783004D24A5 /* PBXTargetDependency */,
 			);
 			name = MerchantScanner;
 			productName = MerchantScanner;
@@ -196,10 +358,19 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				fr,
+				sv,
 			);
 			mainGroup = 958D0177149FF0D5004D24A5;
 			productRefGroup = 958D0183149FF0D5004D24A5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 958D21F6149FF723004D24A5 /* Products */;
+					ProjectRef = 958D21F5149FF723004D24A5 /* ZXingWidget.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				958D0181149FF0D5004D24A5 /* MerchantScanner */,
@@ -208,12 +379,29 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		958D21FD149FF723004D24A5 /* libZXingWidget.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZXingWidget.a;
+			remoteRef = 958D21FC149FF723004D24A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		958D0180149FF0D5004D24A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				958D0191149FF0D5004D24A5 /* InfoPlist.strings in Resources */,
+				959D5F2914A051D600801E86 /* beep-beep.caf in Resources */,
+				95C53D1414A30205003DB563 /* frosted_glass_stretchable_12x18.PNG in Resources */,
+				95C53D1514A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG in Resources */,
+				95F6667D14A3F2F300802CB7 /* Storyboard.storyboard in Resources */,
+				95F6668F14A406FA00802CB7 /* ConfirmViewController.xib in Resources */,
+				95F6669714A4193800802CB7 /* scan_bg.PNG in Resources */,
+				95F6669814A4193800802CB7 /* scan_bg@2x.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +438,22 @@
 			files = (
 				958D0193149FF0D5004D24A5 /* main.m in Sources */,
 				958D0197149FF0D5004D24A5 /* QMAppDelegate.m in Sources */,
+				958D2216149FFD4F004D24A5 /* ScanViewController.mm in Sources */,
+				95E2432614A05875009D364E /* ConfirmViewController.m in Sources */,
+				95F6668014A3F3D300802CB7 /* QMTextView.m in Sources */,
+				95F6669B14A421F900802CB7 /* QMOverlayView.m in Sources */,
+				959A57DC14A99F36008129B5 /* NSObject+SBJson.m in Sources */,
+				959A57DD14A99F36008129B5 /* SBJsonParser.m in Sources */,
+				959A57DE14A99F36008129B5 /* SBJsonStreamParser.m in Sources */,
+				959A57DF14A99F36008129B5 /* SBJsonStreamParserAccumulator.m in Sources */,
+				959A57E014A99F36008129B5 /* SBJsonStreamParserAdapter.m in Sources */,
+				959A57E114A99F36008129B5 /* SBJsonStreamParserState.m in Sources */,
+				959A57E214A99F36008129B5 /* SBJsonStreamWriter.m in Sources */,
+				959A57E314A99F36008129B5 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				959A57E414A99F36008129B5 /* SBJsonStreamWriterState.m in Sources */,
+				959A57E514A99F36008129B5 /* SBJsonTokeniser.m in Sources */,
+				959A57E614A99F36008129B5 /* SBJsonUTF8Stream.m in Sources */,
+				959A57E714A99F36008129B5 /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +472,11 @@
 			isa = PBXTargetDependency;
 			target = 958D0181149FF0D5004D24A5 /* MerchantScanner */;
 			targetProxy = 958D01A2149FF0D5004D24A5 /* PBXContainerItemProxy */;
+		};
+		958D2200149FF783004D24A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZXingWidget;
+			targetProxy = 958D21FF149FF783004D24A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -341,7 +550,19 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MerchantScanner/MerchantScanner-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Users/robcavin/Downloads/zxing/iphone/ZXingWidget/**",
+					"/Users/robcavin/Downloads/zxing/cpp/core/**",
+				);
 				INFOPLIST_FILE = "MerchantScanner/MerchantScanner-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/QQrDecoder/camerawrapper/epoc32/release/armv5/lib\"",
+					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/QQrDecoder/camerawrapper/epoc32/release/winscw/udeb\"",
+					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/ZXingBarcodeReader/camerawrapper/epoc32/release/armv5/lib\"",
+					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/ZXingBarcodeReader/camerawrapper/epoc32/release/winscw/udeb\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -352,7 +573,19 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MerchantScanner/MerchantScanner-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Users/robcavin/Downloads/zxing/iphone/ZXingWidget/**",
+					"/Users/robcavin/Downloads/zxing/cpp/core/**",
+				);
 				INFOPLIST_FILE = "MerchantScanner/MerchantScanner-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/QQrDecoder/camerawrapper/epoc32/release/armv5/lib\"",
+					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/QQrDecoder/camerawrapper/epoc32/release/winscw/udeb\"",
+					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/ZXingBarcodeReader/camerawrapper/epoc32/release/armv5/lib\"",
+					"\"$(SRCROOT)/../../../Downloads/zxing/symbian/ZXingBarcodeReader/camerawrapper/epoc32/release/winscw/udeb\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -411,6 +644,7 @@
 				958D01B1149FF0D5004D24A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		958D01B2149FF0D5004D24A5 /* Build configuration list for PBXNativeTarget "MerchantScannerTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +653,7 @@
 				958D01B4149FF0D5004D24A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
