@@ -153,7 +153,7 @@
 
   [self initCapture];
   [self.view addSubview:overlayView];
-  
+
   [overlayView setPoints:nil];
   wasCancelled = NO;
 }

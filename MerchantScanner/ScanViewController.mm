@@ -20,6 +20,8 @@
 @synthesize prizeImage;
 
 @synthesize overlayView;
+@synthesize waitingLabel;
+
 @synthesize mainView;
 
 @synthesize resultsToDisplay;
@@ -80,6 +82,7 @@
     [scanButton setBackgroundImage:[frostedGlass stretchableImageWithLeftCapWidth:6 topCapHeight:9] forState:UIControlStateNormal];
     [problemButton setBackgroundImage:[frostedGlass stretchableImageWithLeftCapWidth:6 topCapHeight:9] forState:UIControlStateNormal];
     backgroundImage.image = [frostedGlass stretchableImageWithLeftCapWidth:6 topCapHeight:9];
+    self.waitingLabel.text = @"Launching Scanner";
     self.view = overlayView;
     resultsValid = FALSE;
     
@@ -95,6 +98,7 @@
 
 // Watch for the global notifications 
 - (void) enteredBG {
+    self.waitingLabel.text = @"Launching Scanner";
     self.view = overlayView;
     self.resultsValid = false;
 }
@@ -159,7 +163,8 @@
     
     NSDictionary* queryParams = [NSDictionary dictionaryWithObjectsAndKeys:
                                  @"updateredemptionstate", @"command", 
-                                 @"json",                  @"format", 
+                                 @"json",                  @"format",
+                                 @"yes",                   @"prize-detail",
                                  result,                   @"redemption-code",
                                  nil];
     NSMutableArray* queryArray = [NSMutableArray array];
@@ -169,9 +174,11 @@
     NSLog(@"%@",apiURL);
     NSURLRequest* request = [NSURLRequest requestWithURL:[NSURL URLWithString:apiURL]];
     NSURLConnection* connection = [NSURLConnection connectionWithRequest:request delegate:self];
+    self.connectionData = NULL;
     [connection start];
     
     self.resultsValid = TRUE;
+    self.waitingLabel.text = @"Loading Results";
     [self dismissModalViewControllerAnimated:NO];
 }
 
@@ -185,12 +192,36 @@
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-    NSString* response = [[NSString alloc] initWithData:self.connectionData encoding:NSUTF8StringEncoding];
     SBJsonParser* parser = [SBJsonParser new];
     NSDictionary* result = [parser objectWithData:self.connectionData];
-    NSLog(@"%@",[result objectForKey:@"status"]);
-    [self.prizeText setText:response];
-    self.view = self.mainView;
+    NSLog(@"%@",result);
+    if (![(NSString*) [result objectForKey:@"status"] isEqualToString:@"OK"]) {
+        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Error Redeeming Code" 
+                                                            message:[result objectForKey:@"message"]
+                                                           delegate:self 
+                                                  cancelButtonTitle:@"Retry"
+                                                  otherButtonTitles:nil];
+        [alertView show];
+    } else {
+        NSDictionary* prize = [[result objectForKey:@"RedeemedPrize"] objectForKey:@"Prize"];
+        self.prizeTitle.text = [prize objectForKey:@"title"];
+        self.prizeText.text = [prize objectForKey:@"details"];
+        NSArray* detailImages = [prize objectForKey:@"DetailImageResources"];
+        NSString* imagePath = nil;
+        if ([detailImages count] > 0) imagePath = [[detailImages objectAtIndex:0] objectForKey:@"resource"];
+        //[self performSelectorInBackground:@selector(updateImageWithURL:) withObject:[NSURL URLWithString:imagePath]];
+        self.prizeImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:imagePath]]];
+        self.view = self.mainView;
+    }
+}
+         
+- (void)alertView:(UIAlertView *)alertView willDismissWithButtonIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 0) {
+        [self.waitingLabel setText:@"Launching Scanner"];
+        self.view = overlayView;
+        self.resultsValid = false;
+        [self performSegueWithIdentifier:@"LaunchScanner" sender:self];
+    }
 }
 
 - (void)zxingControllerDidCancel:(ZXingWidgetController*)controller {

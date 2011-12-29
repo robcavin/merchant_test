@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ZXingWidgetController.h"
 
-@interface ScanViewController : UIViewController <ZXingDelegate,NSURLConnectionDataDelegate> {
+@interface ScanViewController : UIViewController <ZXingDelegate,NSURLConnectionDataDelegate,UIAlertViewDelegate> {
     IBOutlet UITextView *prizeText;    
     IBOutlet UIButton* scanButton;
     IBOutlet UIView* mainView;
@@ -34,6 +34,8 @@
 @property (strong, nonatomic) IBOutlet UILabel* prizeTitle;
 @property (strong, nonatomic) IBOutlet UIImageView* backgroundImage;
 @property (strong, nonatomic) IBOutlet UIButton* problemButton;
+@property (strong, nonatomic) IBOutlet UILabel* waitingLabel;
+
 @property (nonatomic, assign) BOOL resultsValid;
 
 //- (IBAction)scanPressed:(id)sender;
