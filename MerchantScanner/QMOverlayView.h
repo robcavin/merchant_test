@@ -10,9 +10,13 @@
 
 @interface QMOverlayView : UIImageView {
     CGRect cropRect;
+    UIImageView* animationView;
+    UILabel* instructions;
 }
 
 @property (nonatomic, assign) CGRect cropRect;
+@property (strong, nonatomic) UIImageView* animationView;
+@property (strong, nonatomic) UILabel* instructions;
 
 - (id)initWithFrame:(CGRect)theFrame;
 - (void)setPoint:(CGPoint)point;

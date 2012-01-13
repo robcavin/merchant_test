@@ -7,7 +7,7 @@
 //
 
 #import "QMAppDelegate.h"
-#import "ScanViewController.h"
+#import "ScanWebRootViewController.h"
 
 @implementation QMAppDelegate
 
@@ -16,12 +16,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    /*self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.controller = [[ScanViewController alloc] init];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    self.controller = [[ScanWebRootViewController alloc] init];
     [self.window addSubview:controller.view];
-    [self.window makeKeyAndVisible];*/
+    [self.window makeKeyAndVisible];
+    //[UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleBlackTranslucent;
     return YES;
 }
 

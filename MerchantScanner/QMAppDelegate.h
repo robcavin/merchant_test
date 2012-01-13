@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ScanViewController.h"
+#import "ScanWebRootViewController.h"
 
 @interface QMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) ScanViewController *controller;
+@property (strong, nonatomic) ScanWebRootViewController *controller;
 
 @end
