@@ -59,7 +59,7 @@
     [self setDelegate:scanDelegate];
     self.oneDMode = shouldUseoOneDMode;
     self.showCancel = shouldShowCancel;
-    self.wantsFullScreenLayout = YES;
+    self.wantsFullScreenLayout = NO;
     beepSound = -1;
     decoding = NO;
     OverlayView *theOverLayView = [[OverlayView alloc] initWithFrame:[UIScreen mainScreen].bounds 
@@ -77,7 +77,7 @@
     [self setDelegate:scanDelegate];
     self.oneDMode = shouldUseoOneDMode;
     self.showCancel = shouldShowCancel;
-    self.wantsFullScreenLayout = YES;
+    self.wantsFullScreenLayout = NO;
     beepSound = -1;
     decoding = NO;
     OverlayView *theOverLayView = [[OverlayView alloc] initWithFrame:[UIScreen mainScreen].bounds 
@@ -105,9 +105,9 @@
 
 - (void)cancelled {
   [self stopCapture];
-  if (!self.isStatusBarHidden) {
-    [[UIApplication sharedApplication] setStatusBarHidden:NO];
-  }
+  //if (!self.isStatusBarHidden) {
+  //  [[UIApplication sharedApplication] setStatusBarHidden:NO];
+  //}
 
   wasCancelled = YES;
   if (delegate != nil) {
@@ -134,7 +134,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
   [super viewWillAppear:animated];
-  self.wantsFullScreenLayout = YES;
+  //self.wantsFullScreenLayout = YES;
   if ([self soundToPlay] != nil) {
     OSStatus error = AudioServicesCreateSystemSoundID((CFURLRef)[self soundToPlay], &beepSound);
     if (error != kAudioServicesNoError) {
@@ -160,8 +160,8 @@
 
 - (void)viewDidDisappear:(BOOL)animated {
   [super viewDidDisappear:animated];
-  if (!isStatusBarHidden)
-    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+  //if (!isStatusBarHidden)
+  //  [[UIApplication sharedApplication] setStatusBarHidden:NO];
   [self.overlayView removeFromSuperview];
   [self stopCapture];
 }
@@ -282,7 +282,7 @@
 }
 
 - (void)notifyDelegate:(id)text {
-  if (!isStatusBarHidden) [[UIApplication sharedApplication] setStatusBarHidden:NO];
+  //if (!isStatusBarHidden) [[UIApplication sharedApplication] setStatusBarHidden:NO];
   [delegate zxingController:self didScanResult:text];
   [text release];
 }

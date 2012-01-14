@@ -54,7 +54,6 @@
 		95A12E5514BF70A600A8852A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95A12E5314BF70A600A8852A /* Default@2x.png */; };
 		95C53D1414A30205003DB563 /* frosted_glass_stretchable_12x18.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 95C53D1214A30205003DB563 /* frosted_glass_stretchable_12x18.PNG */; };
 		95C53D1514A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 95C53D1314A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG */; };
-		95F6667D14A3F2F300802CB7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F6667C14A3F2F300802CB7 /* Storyboard.storyboard */; };
 		95F6668014A3F3D300802CB7 /* QMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6667F14A3F3D300802CB7 /* QMTextView.m */; };
 		95F6669B14A421F900802CB7 /* QMOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6669A14A421F900802CB7 /* QMOverlayView.m */; };
 		D49E5F4614AAD8B5002D57C0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D49E5F4414AAD8B5002D57C0 /* icon.png */; };
@@ -84,7 +83,7 @@
 		958120FF14AA762F00AF2C7E /* beep-beep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "beep-beep.caf"; path = "zxing/iphone/ZXingWidget/beep-beep.caf"; sourceTree = SOURCE_ROOT; };
 		958122A514AA76A900AF2C7E /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
 		958C3EF614B8B9100041C617 /* scanner.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scanner.plist; sourceTree = "<group>"; };
-		958D0182149FF0D5004D24A5 /* MerchantScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerchantScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		958D0182149FF0D5004D24A5 /* QuriousMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuriousMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		958D0186149FF0D5004D24A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		958D0188149FF0D5004D24A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		958D018A149FF0D5004D24A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,7 +145,6 @@
 		95A12E5314BF70A600A8852A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		95C53D1214A30205003DB563 /* frosted_glass_stretchable_12x18.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frosted_glass_stretchable_12x18.PNG; sourceTree = "<group>"; };
 		95C53D1314A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frosted_glass_stretchable_12x18@2x.PNG"; sourceTree = "<group>"; };
-		95F6667C14A3F2F300802CB7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		95F6667E14A3F3D300802CB7 /* QMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMTextView.h; sourceTree = "<group>"; };
 		95F6667F14A3F3D300802CB7 /* QMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMTextView.m; sourceTree = "<group>"; };
 		95F6669914A421F900802CB7 /* QMOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMOverlayView.h; sourceTree = "<group>"; };
@@ -208,7 +206,7 @@
 		958D0183149FF0D5004D24A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				958D0182149FF0D5004D24A5 /* MerchantScanner.app */,
+				958D0182149FF0D5004D24A5 /* QuriousMerchant.app */,
 				958D019D149FF0D5004D24A5 /* MerchantScannerTests.octest */,
 			);
 			name = Products;
@@ -237,7 +235,6 @@
 				959A57C214A99F17008129B5 /* SBJSON */,
 				D4B5D96614AA79A9009E11BD /* Resources */,
 				958D018D149FF0D5004D24A5 /* Supporting Files */,
-				95F6667C14A3F2F300802CB7 /* Storyboard.storyboard */,
 				95927D2E14BFBBFA0004EDF4 /* ScanWebRootViewController.xib */,
 				95927D3514BFBD670004EDF4 /* ZXingWidgetController.xib */,
 				958D0195149FF0D5004D24A5 /* QMAppDelegate.h */,
@@ -355,7 +352,7 @@
 			);
 			name = MerchantScanner;
 			productName = MerchantScanner;
-			productReference = 958D0182149FF0D5004D24A5 /* MerchantScanner.app */;
+			productReference = 958D0182149FF0D5004D24A5 /* QuriousMerchant.app */;
 			productType = "com.apple.product-type.application";
 		};
 		958D019C149FF0D5004D24A5 /* MerchantScannerTests */ = {
@@ -430,7 +427,6 @@
 				958D0191149FF0D5004D24A5 /* InfoPlist.strings in Resources */,
 				95C53D1414A30205003DB563 /* frosted_glass_stretchable_12x18.PNG in Resources */,
 				95C53D1514A30205003DB563 /* frosted_glass_stretchable_12x18@2x.PNG in Resources */,
-				95F6667D14A3F2F300802CB7 /* Storyboard.storyboard in Resources */,
 				9581210014AA762F00AF2C7E /* beep-beep.caf in Resources */,
 				D49E5F4614AAD8B5002D57C0 /* icon.png in Resources */,
 				D49E5F4714AAD8B5002D57C0 /* icon@2x.png in Resources */,
@@ -587,6 +583,8 @@
 		958D01B0149FF0D5004D24A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MerchantScanner/MerchantScanner-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -594,11 +592,14 @@
 					"./zxing/cpp/core/**",
 				);
 				INFOPLIST_FILE = "MerchantScanner/MerchantScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ZBarSDK\"",
 				);
-				PRODUCT_NAME = MerchantScanner;
+				PRODUCT_NAME = QuriousMerchant;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -606,6 +607,7 @@
 		958D01B1149FF0D5004D24A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MerchantScanner/MerchantScanner-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -613,11 +615,13 @@
 					"./zxing/cpp/core/**",
 				);
 				INFOPLIST_FILE = "MerchantScanner/MerchantScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ZBarSDK\"",
 				);
-				PRODUCT_NAME = MerchantScanner;
+				PRODUCT_NAME = QuriousMerchant;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

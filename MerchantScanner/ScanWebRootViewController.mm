@@ -72,28 +72,19 @@
 }
 
 
-//- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
--(void) launchScanner {    
-    // Below does NOT work, as it complains about ZXingWidgetController being undefined.  What?? RDC
-    //
-    //if ([segue.identifier compare:@"LaunchScanner"] == NSOrderedSame) {
-    
-    //    if ([segue.destinationViewController isKindOfClass:[ZXingWidgetController class]]) {
-    //self.view = overlayView;
-    self.overlayView.hidden = false;
-    //ZXingWidgetController* widController = segue.destinationViewController;
+-(void) launchScanner {
+    self.waitingLabel.text = @"Launching Scanner";
+    self.view = overlayView; //self.overlayView.hidden = false;
     ZXingWidgetController* widController = [[ZXingWidgetController alloc] initWithDelegate:self showCancel:NO OneDMode:NO];
-    //[widController finishInitWithDelegate:self showCancel:YES OneDMode:NO];
-    widController.overlayView = (OverlayView*) [[QMOverlayView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    widController.overlayView = (OverlayView*) [[QMOverlayView alloc] initWithFrame:CGRectMake(0, -20, 320, 480)];
     QRCodeReader* qrcodeReader = [[QRCodeReader alloc] init];
     NSSet *readers = [[NSSet alloc ] initWithObjects:qrcodeReader,nil];
     widController.readers = readers;
     NSBundle *mainBundle = [NSBundle mainBundle];
     widController.soundToPlay =
-        [NSURL fileURLWithPath:[mainBundle pathForResource:@"beep-beep" ofType:@"caf"] isDirectory:NO];
+    [NSURL fileURLWithPath:[mainBundle pathForResource:@"beep-beep" ofType:@"caf"] isDirectory:NO];
     widController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     [self presentModalViewController:widController animated:YES];
-    //    }
 }
 
 
@@ -107,7 +98,7 @@
 
     // When we first launch, we will always want to toss up the scanner first.  
     self.waitingLabel.text = @"Launching Scanner";
-    self.overlayView.hidden = false;
+    self.view = overlayView; //self.overlayView.hidden = false;
     resultsValid = FALSE;  // Indicates the scanner has not yet returned valid results
 }
 
@@ -127,12 +118,12 @@
 - (void) enteredBG {
     [self dismissModalViewControllerAnimated:NO];
     self.waitingLabel.text = @"Launching Scanner";
-    self.overlayView.hidden = false;
+    self.view = overlayView; //self.overlayView.hidden = false;
     self.resultsValid = false;
 }
 
 - (void) willEnterFG {
-    if (self.isViewLoaded && self.view.window) [self launchScanner]; //[self performSegueWithIdentifier:@"LaunchScanner" sender:self];
+    if (self.isViewLoaded && self.view.window) [self launchScanner];
 }
 
 
@@ -163,22 +154,23 @@
 }
 
 - (IBAction) scanButtonPressed:(id)sender {
+    
     [self launchScanner];
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-    self.overlayView.hidden = true;
+    self.view = mainView; //self.overlayView.hidden = true;
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
-    [self failedWithErrorMessage:[error description]];
+    [self failedWithErrorMessage:[error localizedDescription]];
 }
 
 
 - (void)alertView:(UIAlertView *)alertView willDismissWithButtonIndex:(NSInteger)buttonIndex {
     if (buttonIndex == 0) {
         [self.waitingLabel setText:@"Launching Scanner"];
-        self.overlayView.hidden = false;
+        self.view = overlayView; //self.overlayView.hidden = false;
         self.resultsValid = false;
         [self launchScanner];//[self performSegueWithIdentifier:@"LaunchScanner" sender:self];
     }

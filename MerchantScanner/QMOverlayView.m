@@ -72,7 +72,7 @@
         }
         
         // Set up the animation overlay
-        self.animationView = [[UIImageView alloc] initWithFrame:self.frame];
+        self.animationView = [[UIImageView alloc] initWithFrame:self.bounds];
         [self addSubview:animationView];
         self.animationView.animationDuration = 1.1;
         self.animationView.animationImages = animationImages;

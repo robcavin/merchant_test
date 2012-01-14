@@ -16,7 +16,7 @@
 
 @property (strong, nonatomic) IBOutlet UIWebView* webView;
 @property (strong, nonatomic) IBOutlet UIView* mainView;
-@property (strong, nonatomic) UIView* overlayView;
+@property (strong, nonatomic) IBOutlet UIView* overlayView;
 @property (strong, nonatomic) IBOutlet UILabel* waitingLabel;
 @property (nonatomic, assign) BOOL resultsValid;
 
